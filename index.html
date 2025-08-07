@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+        <title>លិខិតអញ្ជើញមង្គលអាពាហ៍ពិពាហ៍</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+        .animate-ripple {
+            animation: ripple 1s linear infinite;
+        }
+        .bg-white\/20 {
+            background-color: #fff3;
+        }
+        .rounded-full {
+            border-radius: 9999px;
+        }
+        .scale-0 {
+            --tw-scale-x: 0;
+            --tw-scale-y: 0;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        }
+        .inset-0 {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .absolute {
+            position: absolute;
+        }
+
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+        *, :before, :after {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            border-color: #e5e7eb;
+        }
+        .photo-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .map-address {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .map-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .memory-photo1 {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .memory-photo {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .memory-photo:hover {
+            transform: scale(2.05);
+        }
+        .hero-section1 {
+            background-image: url(_next/background.jpg); /* You can replace with your image URL */
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        .background-couple {
+            background-image: url(_next/couple-background1.jpg);
+            background-position: 55% 50%;
+            filter: blur(2px);
+        }
+        .map-section {
+            color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        </style>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Moul&display=swap);
+            body {
+            font-family: 'KhmerOSMuolLight', sans-serif;
+            background-image: url(rachana.jpg);
+            background-size: cover;
+            text-align: center;
+            }
+            @font-face {
+            font-family: Moul;
+            font-style: "normal";
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+            unicode-range: u+1780-17ff,u+19e0-19ff,u+200c-200d,u+25cc
+            }
+            @font-face {
+                font-family: "Moul";
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Moul Fallback;
+                src: local("Arial");
+                ascent-override:94.45%;descent-override:45.34%;line-gap-override:0.00%;size-adjust:129.24%}
+
+            .__className_79a552 {
+                font-family: Moul,Moul Fallback;
+                font-weight: 400;
+                font-style: normal
+            }
+
+            .__variable_79a552 {
+                --font-moul: "Moul","Moul Fallback"
+            }
+
+            @font-face {
+                font-family: "Battambang";
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Battambang&display=swap) format("woff2");
+                unicode-range: u+1780-17ff,u+19e0-19ff,u+200c-200d,u+25cc
+            }
+
+            @font-face {
+                font-family: Battambang;
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Battambang&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+            .font-Dancing {
+                font-family: 'Dancing Script', cursive;
+            }
+
+            @font-face {
+                font-family: Battambang;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Battambang&display=swap) format("woff2");
+                unicode-range: u+1780-17ff,u+19e0-19ff,u+200c-200d,u+25cc
+            }
+
+            @font-face {
+                font-family: Battambang;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Battambang&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Battambang Fallback;
+                src: local("Arial");
+                ascent-override:111.34%;descent-override:53.44%;line-gap-override:0.00%;size-adjust:109.64%}
+
+            .__className_75db82 {
+                font-family: Battambang,Battambang Fallback;
+                font-style: normal
+            }
+
+            .__variable_75db82 {
+                --font-battambang: "Battambang","Battambang Fallback"
+            }
+
+            @font-face {
+                font-family: Tangerine;
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Tangerine;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Tangerine Fallback;
+                src: local("Arial");
+                ascent-override:141.08%;descent-override:47.03%;line-gap-override:0.00%;size-adjust:53.16%}
+
+            .__className_a87901 {
+                font-family: Tangerine,Tangerine Fallback;
+                font-style: normal
+            }
+
+            .__variable_a87901 {
+                --font-tangerine: "Tangerine","Tangerine Fallback"
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(/https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+            }
+
+            @font-face {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.googleapis.com/css2?family=Moul&display=swap) format("woff2");
+                unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+            }
+
+            @font-face {
+                font-family: Poppins Fallback;
+                src: local("Arial");
+                ascent-override:93.62%;descent-override:31.21%;line-gap-override:8.92%;size-adjust:112.16%}
+
+            .__className_1fa6f9 {
+                font-family: Poppins,Poppins Fallback;
+                font-style: normal
+            }
+
+            .__variable_1fa6f9 {
+                --font-poppins: "Poppins","Poppins Fallback"
+            }
+
+            *,:after,:before {
+                --tw-border-spacing-x: 0;
+                --tw-border-spacing-y: 0;
+                --tw-translate-x: 0;
+                --tw-translate-y: 0;
+                --tw-rotate: 0;
+                --tw-skew-x: 0;
+                --tw-skew-y: 0;
+                --tw-scale-x: 1;
+                --tw-scale-y: 1;
+                --tw-pan-x: ;
+                --tw-pan-y: ;
+                --tw-pinch-zoom: ;
+                --tw-scroll-snap-strictness: proximity;
+                --tw-gradient-from-position: ;
+                --tw-gradient-via-position: ;
+                --tw-gradient-to-position: ;
+                --tw-ordinal: ;
+                --tw-slashed-zero: ;
+                --tw-numeric-figure: ;
+                --tw-numeric-spacing: ;
+                --tw-numeric-fraction: ;
+                --tw-ring-inset: ;
+                --tw-ring-offset-width: 0px;
+                --tw-ring-offset-color: #fff;
+                --tw-ring-color: rgba(59,130,246,.5);
+                --tw-ring-offset-shadow: 0 0 #0000;
+                --tw-ring-shadow: 0 0 #0000;
+                --tw-shadow: 0 0 #0000;
+                --tw-shadow-colored: 0 0 #0000;
+                --tw-blur: ;
+                --tw-brightness: ;
+                --tw-contrast: ;
+                --tw-grayscale: ;
+                --tw-hue-rotate: ;
+                --tw-invert: ;
+                --tw-saturate: ;
+                --tw-sepia: ;
+                --tw-drop-shadow: ;
+                --tw-backdrop-blur: ;
+                --tw-backdrop-brightness: ;
+                --tw-backdrop-contrast: ;
+                --tw-backdrop-grayscale: ;
+                --tw-backdrop-hue-rotate: ;
+                --tw-backdrop-invert: ;
+                --tw-backdrop-opacity: ;
+                --tw-backdrop-saturate: ;
+                --tw-backdrop-sepia: ;
+                --tw-contain-size: ;
+                --tw-contain-layout: ;
+                --tw-contain-paint: ;
+                --tw-contain-style:
+            }
+
+            ::backdrop {
+                --tw-border-spacing-x: 0;
+                --tw-border-spacing-y: 0;
+                --tw-translate-x: 0;
+                --tw-translate-y: 0;
+                --tw-rotate: 0;
+                --tw-skew-x: 0;
+                --tw-skew-y: 0;
+                --tw-scale-x: 1;
+                --tw-scale-y: 1;
+                --tw-pan-x: ;
+                --tw-pan-y: ;
+                --tw-pinch-zoom: ;
+                --tw-scroll-snap-strictness: proximity;
+                --tw-gradient-from-position: ;
+                --tw-gradient-via-position: ;
+                --tw-gradient-to-position: ;
+                --tw-ordinal: ;
+                --tw-slashed-zero: ;
+                --tw-numeric-figure: ;
+                --tw-numeric-spacing: ;
+                --tw-numeric-fraction: ;
+                --tw-ring-inset: ;
+                --tw-ring-offset-width: 0px;
+                --tw-ring-offset-color: #fff;
+                --tw-ring-color: rgba(59,130,246,.5);
+                --tw-ring-offset-shadow: 0 0 #0000;
+                --tw-ring-shadow: 0 0 #0000;
+                --tw-shadow: 0 0 #0000;
+                --tw-shadow-colored: 0 0 #0000;
+                --tw-blur: ;
+                --tw-brightness: ;
+                --tw-contrast: ;
+                --tw-grayscale: ;
+                --tw-hue-rotate: ;
+                --tw-invert: ;
+                --tw-saturate: ;
+                --tw-sepia: ;
+                --tw-drop-shadow: ;
+                --tw-backdrop-blur: ;
+                --tw-backdrop-brightness: ;
+                --tw-backdrop-contrast: ;
+                --tw-backdrop-grayscale: ;
+                --tw-backdrop-hue-rotate: ;
+                --tw-backdrop-invert: ;
+                --tw-backdrop-opacity: ;
+                --tw-backdrop-saturate: ;
+                --tw-backdrop-sepia: ;
+                --tw-contain-size: ;
+                --tw-contain-layout: ;
+                --tw-contain-paint: ;
+                --tw-contain-style:
+            }
+
+            /*
+            ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+            */
+            *,:after,:before {
+                box-sizing: border-box;
+                border: 0 solid #e5e7eb
+            }
+
+            :after,:before {
+                --tw-content: ""
+            }
+
+            :host,html {
+                line-height: 1.5;
+                -webkit-text-size-adjust: 100%;
+                -moz-tab-size: 4;
+                tab-size: 4;
+                font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                font-feature-settings: normal;
+                font-variation-settings: normal;
+                -webkit-tap-highlight-color: transparent
+            }
+
+            body {
+                line-height: inherit
+            }
+
+            hr {
+                height: 0;
+                color: inherit;
+                border-top-width: 1px
+            }
+
+            abbr:where([title]) {
+                text-decoration: underline dotted
+            }
+
+            h1,h2,h3,h4,h5,h6 {
+                font-size: inherit;
+                font-weight: inherit
+            }
+
+            a {
+                color: inherit;
+                text-decoration: inherit
+            }
+
+            b,strong {
+                font-weight: bolder
+            }
+
+            code,kbd,pre,samp {
+                font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+                font-feature-settings: normal;
+                font-variation-settings: normal;
+                font-size: 1em
+            }
+
+            small {
+                font-size: 80%
+            }
+
+            sub,sup {
+                font-size: 75%;
+                line-height: 0;
+                position: relative;
+                vertical-align: baseline
+            }
+
+            sub {
+                bottom: -.25em
+            }
+
+            sup {
+                top: -.5em
+            }
+
+            table {
+                text-indent: 0;
+                border-color: inherit;
+                border-collapse: collapse
+            }
+
+            button,input,optgroup,select,textarea {
+                font-family: inherit;
+                font-feature-settings: inherit;
+                font-variation-settings: inherit;
+                font-size: 100%;
+                font-weight: inherit;
+                line-height: inherit;
+                letter-spacing: inherit;
+                color: inherit;
+                margin: 0;
+                padding: 0
+            }
+
+            button,select {
+                text-transform: none
+            }
+
+            button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]) {
+                background-color: transparent;
+                background-image: none
+            }
+
+            :-moz-focusring {
+                outline: auto
+            }
+
+            :-moz-ui-invalid {
+                box-shadow: none
+            }
+
+            progress {
+                vertical-align: baseline
+            }
+
+            ::-webkit-inner-spin-button,::-webkit-outer-spin-button {
+                height: auto
+            }
+
+            [type=search] {
+                outline-offset: -2px
+            }
+
+            ::-webkit-search-decoration {
+                -webkit-appearance: none
+            }
+
+            ::-webkit-file-upload-button {
+                -webkit-appearance: button;
+                font: inherit
+            }
+
+            summary {
+                display: list-item
+            }
+
+            blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre {
+                margin: 0
+            }
+
+            fieldset {
+                margin: 0
+            }
+
+            fieldset,legend {
+                padding: 0
+            }
+
+            menu,ol,ul {
+                list-style: none;
+                margin: 0;
+                padding: 0
+            }
+
+            dialog {
+                padding: 0
+            }
+
+            textarea {
+                resize: vertical
+            }
+
+            input::placeholder,textarea::placeholder {
+                opacity: 1;
+                color: #9ca3af
+            }
+
+            [role=button],button {
+                cursor: pointer
+            }
+
+            :disabled {
+                cursor: default
+            }
+
+            audio,canvas,embed,iframe,img,object,svg,video {
+                display: block;
+            }
+
+            img,video {
+                max-width: 100%;
+                height: auto
+            }
+
+            [hidden]:where(:not([hidden=until-found])) {
+                display: none
+            }
+
+            body {
+                background-color: #fff;
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box
+            }
+
+            .container {
+                width: 100%
+            }
+
+            @media (min-width: 640px) {
+                .container {
+                    max-width:640px
+                }
+            }
+
+            @media (min-width: 768px) {
+                .container {
+                    max-width:768px
+                }
+            }
+
+            @media (min-width: 1024px) {
+                .container {
+                    max-width:1024px
+                }
+            }
+
+            @media (min-width: 1280px) {
+                .container {
+                    max-width:1280px
+                }
+            }
+
+            @media (min-width: 1536px) {
+                .container {
+                    max-width:1536px
+                }
+            }
+
+            .gold-text {
+                --tw-text-opacity: 1;
+                color: rgb(182 144 10/var(--tw-text-opacity,1))
+            }
+
+            .gold-bg {
+                --tw-bg-opacity: 1;
+                background-color: rgb(244 240 228/var(--tw-bg-opacity,1))
+            }
+
+            .gold-border {
+                --tw-border-opacity: 1!important;
+                border-color: rgb(182 144 10/var(--tw-border-opacity,1))!important
+            }
+
+            .absolute {
+                position: absolute
+            }
+
+            .relative {
+                position: relative
+            }
+
+            .inset-0 {
+                inset: 0
+            }
+
+            .left-1\/2 {
+                left: 50%
+            }
+
+            .top-10 {
+                top: 2.5rem
+            }
+
+            .top-36 {
+                top: 9rem
+            }
+
+            .z-10 {
+                z-index: 10
+            }
+
+            .mx-1 {
+                margin-left: .25rem;
+                margin-right: .25rem
+            }
+
+            .mx-auto {
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .my-3 {
+                margin-top: .75rem;
+                margin-bottom: .75rem
+            }
+
+            .mt-8 {
+                margin-top: 2rem
+            }
+
+            .flex {
+                display: flex
+            }
+
+            .aspect-\[3\.8\/1\] {
+                aspect-ratio: 3.8/1
+            }
+
+            .size-24 {
+                width: 6rem;
+                height: 6rem
+            }
+
+            .size-40 {
+                width: 10rem;
+                height: 10rem
+            }
+
+            .h-72 {
+                height: 18rem
+            }
+
+            .h-auto {
+                height: auto
+            }
+
+            .h-fit {
+                height: fit-content
+            }
+
+            .h-full {
+                height: 100%
+            }
+
+            .h-screen {
+                height: 100vh
+            }
+
+            .w-24 {
+                width: 6rem
+            }
+
+            .w-\[60\%\] {
+                width: 60%
+            }
+
+            .w-\[70\%\] {
+                width: 70%
+            }
+
+            .w-fit {
+                width: fit-content
+            }
+
+            .w-full {
+                width: 100%
+            }
+
+            .min-w-\[125px\] {
+                min-width: 125px
+            }
+
+            .max-w-\[180px\] {
+                max-width: 180px
+            }
+
+            .max-w-\[280px\] {
+                max-width: 280px
+            }
+
+            .max-w-xl {
+                max-width: 36rem
+            }
+
+            .-translate-x-1\/2 {
+                --tw-translate-x: -50%;
+                transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+            }
+
+            .flex-col {
+                flex-direction: column
+            }
+
+            .flex-wrap {
+                flex-wrap: wrap
+            }
+
+            .items-start {
+                align-items: flex-start
+            }
+
+            .items-center {
+                align-items: center
+            }
+
+            .justify-center {
+                justify-content: center
+            }
+
+            .justify-around {
+                justify-content: space-around
+            }
+
+            .gap-10 {
+                gap: 2.5rem
+            }
+
+            .gap-2 {
+                gap: .5rem
+            }
+
+            .gap-3 {
+                gap: .75rem
+            }
+
+            .gap-4 {
+                gap: 1rem
+            }
+
+            .gap-5 {
+                gap: 1.25rem
+            }
+
+            .text-nowrap {
+                text-wrap: nowrap
+            }
+
+            .rounded-2xl {
+                border-radius: 1rem
+            }
+
+            .rounded-lg {
+                border-radius: .5rem
+            }
+
+            .rounded-xl {
+                border-radius: .75rem
+            }
+
+            .border {
+                border-width: 1px
+            }
+
+            .border-y {
+                border-top-width: 1px
+            }
+
+            .border-b,.border-y {
+                border-bottom-width: 1px
+            }
+
+            .border-\[\#FFDC00\] {
+                --tw-border-opacity: 1;
+                border-color: rgb(255 220 0/var(--tw-border-opacity,1))
+            }
+
+            .bg-black\/30 {
+                background-color: rgba(0,0,0,.3)
+            }
+
+            .bg-cover {
+                background-size: cover
+            }
+
+            .bg-center {
+                background-position: 50%
+            }
+
+            .bg-no-repeat {
+                background-repeat: no-repeat
+            }
+
+            .object-cover {
+                object-fit: cover
+            }
+
+            .p-10 {
+                padding: 2.5rem
+            }
+
+            .p-5 {
+                padding: 1.25rem
+            }
+
+            .px-10 {
+                padding-left: 2.5rem;
+                padding-right: 2.5rem
+            }
+
+            .px-2 {
+                padding-left: .5rem;
+                padding-right: .5rem
+            }
+
+            .px-3 {
+                padding-left: .75rem;
+                padding-right: .75rem
+            }
+
+            .px-5 {
+                padding-left: 1.25rem;
+                padding-right: 1.25rem
+            }
+
+            .px-6 {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem
+            }
+
+            .py-1 {
+                padding-top: .25rem;
+                padding-bottom: .25rem
+            }
+
+            .py-10 {
+                padding-top: 2.5rem;
+                padding-bottom: 2.5rem
+            }
+
+            .pb-5 {
+                padding-bottom: 1.25rem
+            }
+
+            .pt-5 {
+                padding-top: 1.25rem
+            }
+
+            .text-center {
+                text-align: center
+            }
+
+            .font-battambang {
+                font-family: var(--font-battambang),sans-serif
+            }
+            .font-moul {
+                font-family: var(--font-moul),sans-serif
+            }
+
+            .font-poppins {
+                font-family: var(--font-poppins)
+            }
+
+            .font-times {
+                font-family: Times New Roman,serif
+            }
+
+            .text-2xl {
+                font-size: 1.5rem;
+                line-height: 2rem
+            }
+
+            .text-lg {
+                font-size: 1.125rem;
+                line-height: 1.75rem
+            }
+
+            .text-sm {
+                font-size: .875rem;
+                line-height: 1.25rem
+            }
+
+            .text-xl {
+                font-size: 1.25rem;
+                line-height: 1.75rem
+            }
+
+            .text-xs {
+                font-size: .75rem;
+                line-height: 1rem
+            }
+
+            .font-bold {
+                font-weight: 700
+            }
+
+            .font-medium {
+                font-weight: 500
+            }
+
+            .font-normal {
+                font-weight: 400
+            }
+
+            .uppercase {
+                text-transform: uppercase
+            }
+
+            .\!leading-loose {
+                line-height: 2!important
+            }
+
+            .leading-loose {
+                line-height: 2
+            }
+
+            .leading-relaxed {
+                line-height: 1.625
+            }
+
+            .tracking-wide {
+                letter-spacing: .025em
+            }
+
+            .text-\[\#FFDC00\] {
+                --tw-text-opacity: 1;
+                color: rgb(255 220 0/var(--tw-text-opacity,1))
+            }
+
+            .text-pink-500 {
+                --tw-text-opacity: 1;
+                color: rgb(236 72 153/var(--tw-text-opacity,1))
+            }
+
+            .antialiased {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale
+            }
+
+            .blur {
+                --tw-blur: blur(8px)
+            }
+
+            .blur,.filter {
+                filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+            }
+
+            .backdrop-blur-sm {
+                --tw-backdrop-blur: blur(4px);
+                -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+                backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)
+            }
+
+            @media (max-width: 400px) {
+                .xs\:top-32 {
+                    top:8rem
+                }
+
+                .xs\:size-20 {
+                    width: 5rem;
+                    height: 5rem
+                }
+
+                .xs\:h-fit {
+                    height: fit-content
+                }
+
+                .xs\:w-28 {
+                    width: 7rem
+                }
+
+                .xs\:py-5 {
+                    padding-top: 1.25rem;
+                    padding-bottom: 1.25rem
+                }
+
+                .xs\:text-sm {
+                    font-size: .875rem;
+                    line-height: 1.25rem
+                }
+
+                .xs\:text-xl {
+                    font-size: 1.25rem;
+                    line-height: 1.75rem
+                }
+            }
+
+            .\[\&\>p\]\:font-tangerine>p {
+                font-family: var(--font-tangerine),cursive
+            }
+
+            .\[\&\>p\]\:text-4xl>p {
+                font-size: 2.25rem;
+                line-height: 2.5rem
+            }
+
+            .\[\&\>p\]\:font-bold>p {
+                font-weight: 700
+            }
+            .antialiased {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .__variable_1fa6f9 {
+                --font-poppins: "Poppins", "Poppins Fallback";
+            }
+            .__variable_a87901 {
+                --font-tangerine: "Tangerine", "Tangerine Fallback";
+            }
+            .__variable_75db82 {
+                --font-battambang: "Battambang", "Battambang Fallback";
+            }
+            .__variable_79a552 {
+                --font-moul: "Moul", "Moul Fallback";
+            }
+            :where(.css-1p3hq3p).ant-drawer .ant-drawer-header {
+                display: flex;
+                flex: 0;
+                align-items: center;
+                padding: 16px 24px;
+                font-size: 16px;
+                line-height: 1.5;
+                border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+            }
+            :where(.css-1p3hq3p)[class^="ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class^="ant-drawer"] [class*=" ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class*=" ant-drawer"] {
+                box-sizing: border-box;
+            }
+            .contact-drawer :where(.ant-drawer-header) {
+                border-bottom: none;
+                padding-bottom: 0;
+                background: #fff;
+            }
+            *, *:before, *:after {
+                box-sizing: border-box;
+            }
+            *, :before, :after {
+                box-sizing: border-box;
+                border-width: 0;
+                border-style: solid;
+                border-color: #e5e7eb;
+            }
+            :where(.css-1p3hq3p).ant-drawer-bottom>.ant-drawer-content-wrapper {
+                bottom: 0;
+                inset-inline: 0;
+                box-shadow: 0 -6px 16px 0 rgba(0, 0, 0, 0.08), 0 -3px 6px -4px rgba(0, 0, 0, 0.12), 0 -9px 28px 8px rgba(0, 0, 0, 0.05);
+            }
+            :where(.css-1p3hq3p).ant-drawer .ant-drawer-content-wrapper {
+                position: absolute;
+                z-index: 1000;
+                transition: all 0.3s;
+            }
+            :where(.css-1p3hq3p)[class^="ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class^="ant-drawer"] [class*=" ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class*=" ant-drawer"] {
+                box-sizing: border-box;
+            }
+            :where(.css-1p3hq3p).ant-drawer .ant-drawer-content {
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background: #ffffff;
+                pointer-events: auto;
+            }
+             /* Simulate the drawer nested classes */
+            .ant-drawer, .ant-drawer * {
+                box-sizing: border-box; /* matches your CSS */
+            }
+
+            /* Styles to visualize the boxes */
+            .ant-drawer {
+                width: 300px;
+                padding: 20px;
+                border: 3px solid #e91e63;
+                margin: 20px auto;
+                background: #ffe4e6;
+            }
+
+            .ant-drawer-content {
+                padding: 15px;
+                border: 2px dashed #f48fb1;
+                background: #fce4ec;
+            }
+
+            .ant-drawer-inner {
+                padding: 10px;
+                border: 1px dotted #f8bbd0;
+                background: #f8bbd0;
+            }
+            :where(.css-1p3hq3p).ant-drawer .ant-drawer-wrapper-body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        :where(.css-1p3hq3p)[class^="ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class^="ant-drawer"] [class*=" ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class*=" ant-drawer"] {
+            box-sizing: border-box;
+        }
+        .contact-drawer :where(.ant-drawer-wrapper-body) {
+            background: transparent;
+        }
+        :where(.css-1p3hq3p).ant-drawer .ant-drawer-header {
+            display: flex;
+            flex: 0;
+            align-items: center;
+            padding: 16px 24px;
+            font-size: 16px;
+            line-height: 1.5;
+            border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+        }
+        :where(.css-1p3hq3p)[class^="ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class^="ant-drawer"] [class*=" ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class*=" ant-drawer"] {
+            box-sizing: border-box;
+        }
+        .contact-drawer :where(.ant-drawer-header) {
+            border-bottom: none;
+            padding-bottom: 0;
+            background: #fff;
+        }
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+        *, :before, :after {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            border-color: #e5e7eb;
+        }
+        :where(.css-1p3hq3p).ant-drawer .ant-drawer-header-title {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            min-width: 0;
+            min-height: 0;
+        }
+        :where(.css-1p3hq3p)[class^="ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class^="ant-drawer"] [class*=" ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class*=" ant-drawer"] {
+            box-sizing: border-box;
+        }
+        :where(.css-1p3hq3p).ant-drawer-bottom>.ant-drawer-content-wrapper {
+            bottom: 0;
+            inset-inline: 0;
+            box-shadow: 0 -6px 16px 0 rgba(0, 0, 0, 0.08), 0 -3px 6px -4px rgba(0, 0, 0, 0.12), 0 -9px 28px 8px rgba(0, 0, 0, 0.05);
+        }
+        :where(.css-1p3hq3p).ant-drawer .ant-drawer-content-wrapper {
+            position: absolute;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        :where(.css-1p3hq3p)[class^="ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class^="ant-drawer"], :where(.css-1p3hq3p)[class^="ant-drawer"] [class*=" ant-drawer"], :where(.css-1p3hq3p)[class*=" ant-drawer"] [class*=" ant-drawer"] {
+            box-sizing: border-box;
+        }
+        .ant-drawer-header-title {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            min-width: 0;
+            min-height: 0;
+        }
+        :where(.css-1p3hq3p).ant-drawer .ant-drawer-header {
+            display: flex;
+            flex: 0;
+            align-items: center;
+            padding: 16px 24px;
+            font-size: 16px;
+            line-height: 1.5;
+            border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+        }
+        .text-lg {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+        .font-moulpali-regular {
+            font-family: moulpali-regular, sans-serif;
+        }
+        .m-0 {
+            margin: 0;
+        }
+        .relative {
+            position: relative;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+            margin-bottom: .5em;
+            font-weight: 500;
+        }
+        blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+            margin: 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-size: inherit;
+            font-weight: inherit;
+        }
+        .text-transparent {
+            color: transparent;
+        }
+
+        .bg-clip-text {
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .to-pink-400 {
+            --tw-gradient-to: #f472b6 var(--tw-gradient-to-position);
+        }
+        .from-pink-500 {
+            --tw-gradient-from: #ec4899 var(--tw-gradient-from-position);
+            --tw-gradient-to: rgb(236 72 153 / 0) var(--tw-gradient-to-position);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+        }
+        .bg-gradient-to-r {
+            background-image: linear-gradient(to right, var(--tw-gradient-stops));
+        }
+
+        </style>
+    </head>
+    <body class="__variable_79a552 __variable_75db82 __variable_a87901 __variable_1fa6f9 --font-times-new-roman antialiased">
+        <button id="contactBtn" class="fixed bottom-24 right-3 z-50 w-11 h-11 rounded-full bg-pink-500 text-white flex items-center justify-center shadow-lg hover:bg-pink-600">📞</button>
+  <!-- Contact Drawer -->
+        <div id="contactDrawer" class="fixed bottom-0 left-0 w-full bg-white shadow-lg p-6 z-40 hidden transition-transform duration-300">
+            <div class="ant-drawer-content-wrapper" style="height: auto;">
+                <div class="ant-drawer-content contact-drawer">
+                    <div class="ant-drawer-wrapper-body">
+                        <div class="ant-drawer-header">
+                            <div class="ant-drawer-header-title">
+                                <button id="closeDrawer" aria-label="Close" class="ant-drawer-close">
+                                    <span role="img" aria-label="close" class="anticon anticon-close">
+                                        <svg focusable="false" data-icon="close" width="1em" height="1em" fill="currentColor" aria-hidden="true" fill-rule="evenodd" viewBox="64 64 896 896">
+                                            <path d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"></path>
+                                        </svg>
+                                    <!---->
+                                    </span>
+                                </button>
+                                <div class="ant-drawer-title">
+                                    <div class="flex items-center space-x-2">
+                                        <h2 class="text-lg m-0 font-moulpali-regular relative">
+                                            <span class="bg-gradient-to-r from-pink-500 to-pink-400 bg-clip-text text-transparent">ទំនាក់ទំនងម្ចាស់កម្មវិធី</span>
+                                            <div class="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-pink-300 to-transparent"></div>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                                <!---->
+                            </div>
+                            <div class="ant-drawer-body">
+                                <div class="container mx-auto px-3 py-4">
+                                    <div class="flex justify-center">
+                                        <div class="w-full max-w-md">
+                                            <div class="space-y-4">
+                                                <a href="tel:010670270" class="flex items-center gap-3 p-3 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
+                                                    <div class="w-9 h-9 rounded-full bg-pink-50 flex items-center justify-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon w-4 h-4 text-pink-500">
+                                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <p class="text-base font-medium text-gray-900 m-0">081 681 321</p>
+                                                        <p class="text-sm text-gray-500 font-khmer m-0">ម្ចាស់កម្មវិធី</p>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon w-4 h-4 text-pink-500">
+                                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                        <path d="M14.05 2a9 9 0 0 1 8 7.94"></path>
+                                                        <path d="M14.05 6A5 5 0 0 1 18 10"></path>
+                                                    </svg>
+                                                </a>
+                                                <a href="tel:017362417" class="flex items-center gap-3 p-3 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
+                                                    <div class="w-9 h-9 rounded-full bg-pink-50 flex items-center justify-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon w-4 h-4 text-pink-500">
+                                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <p class="text-base font-medium text-gray-900 m-0">015 888 324</p>
+                                                        <p class="text-sm text-gray-500 font-khmer m-0">ម្ចាស់កម្មវិធី</p>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon w-4 h-4 text-pink-500">
+                                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                        <path d="M14.05 2a9 9 0 0 1 8 7.94"></path>
+                                                        <path d="M14.05 6A5 5 0 0 1 18 10"></path>
+                                                    </svg>
+                                                </a>
+                                                <a href="tel:016383412" class="flex items-center gap-3 p-3 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
+                                                    <div class="w-9 h-9 rounded-full bg-pink-50 flex items-center justify-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon w-4 h-4 text-pink-500">
+                                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <p class="text-base font-medium text-gray-900 m-0">096 68 28 121</p>
+                                                        <p class="text-sm text-gray-500 font-khmer m-0">ម្ចាស់កម្មវិធី</p>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon w-4 h-4 text-pink-500">
+                                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                        <path d="M14.05 2a9 9 0 0 1 8 7.94"></path>
+                                                        <path d="M14.05 6A5 5 0 0 1 18 10"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!---->
+                        </div>
+                    </div>
+                <!---->
+                </div>
+        </div>
+
+  <!-- JS -->
+  <script>
+    const btn = document.getElementById('contactBtn');
+    const drawer = document.getElementById('contactDrawer');
+    const close = document.getElementById('closeDrawer');
+
+    btn.addEventListener('click', () => {
+      drawer.classList.remove('hidden');
+    });
+
+    close.addEventListener('click', () => {
+      drawer.classList.add('hidden');
+    });
+  </script>
+            <div class="container mx-auto max-w-xl">
+                <div class="relative w-full">
+                    <img alt="Top background" width="1608" height="3992" decoding="async" data-nimg="1" class="w-full h-auto" src="_next/background01.png" style="color: transparent;">
+                    <img alt="Butterfly" loading="lazy" width="200" height="200" decoding="async" data-nimg="1" class="absolute top-10 left-1/2 -translate-x-1/2 size-40" src="_next/static/media/butterfly" style="color: transparent;">
+                    <div class="absolute top-36 xs:top-32 w-full flex flex-col justify-center items-center gap-4">
+                        
+                        <img alt="Logo" loading="lazy" width="160" height="164" decoding="async" data-nimg="1" class="w-24 xs:w-28" src="_next/logoimage.jpg" style="color: transparent;">
+                        <div class="gold-text text-lg xs:text-xl font-moul flex flex-col items-center gap-3">
+                            <p>សិរីមង្គលអាពាហ៍ពិពាហ៍</p>
+                            <p>សូមគោរពអញ្ជើញ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-fit w-full gold-bg flex flex-col gap-5 px-6 pb-5">
+                    <div class="flex items-center justify-around gold-text font-moul my-3">
+                        <div class="flex flex-col gap-3 text-sm">
+                            <p>លោក យិន &ZeroWidthSpace;លុច</p>
+                            <p>លោកស្រី ម៉ើ​ ស៊ីវយ៉េង</p>
+                        </div>
+                        <div class="flex flex-col gap-3 text-sm">
+                            <p>លោក វង ជ្រាង</p>
+                            <p>លោកស្រី ហេង ស្រីពៅ</p>
+                        </div>
+                </div>
+                <div class="flex flex-col items-center justify-center gap-3 gold-text">
+                    <p class="text-sm font-moul">យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញ</p>
+                    <p class="text-xs text-center leading-loose font-battambang">
+                        សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ</p>
+                </div>
+                <div class="flex items-center justify-around gold-text">
+                    <div class="flex flex-col items-center gap-3">
+                        <p class="text-xs font-battambang">កូនប្រុសនាម</p>
+                        <p class="text-sm font-moul">យិន&ZeroWidthSpace; រចនា</p>
+                    </div>
+                        <img alt="Statue Image" loading="lazy" width="1228" height="1244" decoding="async" data-nimg="1" class="size-24 xs:size-20" style="color:transparent"  src="_next/logoimage.jpg">
+                        <div class="flex flex-col items-center gap-3">
+                            <p class="text-xs font-battambang">កូនស្រីនាម</p>
+                            <p class="text-sm font-moul">ជ្រាង ស្រីនាង</p>
+                        </div>
+                    </div>
+                    <p class="gold-text text-center text-xs font-battambang leading-loose">
+                            ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃព្រហស្បតិ៍ ៦&ZeroWidthSpace;​​កើត ខែបុស្ស ឆ្នាំម្សាញ់ សប្តស័ក ពុទ្ធសករាជ ២៥៦៩ ត្រូវនឹងថ្ងៃព្រហស្បតិ៍ ទី ២៥ ខែ ធ្នូ ឆ្នាំ ២០២៥ វេលាម៉ោង ៥ ល្ងាច ស្ថិតនៅគេហដ្ឋានខាងស្រី ភូមិព្រែកតាកេរ ឃុំកោះធំ "ខ" ស្រុកកោះធំ ខេត្តកណ្ដាល ដោយមេត្រីភាព ។ សូមអគុណ !
+                    </p>
+                    <div class="w-full flex flex-col items-center gap-5 gold-text">
+                        <img alt="Divider Image" loading="lazy" width="262" height="2" decoding="async" data-nimg="1" style="color:transparent" src="_next/static/media/divider.svg">
+                        <p class="text-xs uppercase font-times font-normal">together with our families</p>
+                    
+                        <div class="w-full gold-text font-Dancing">
+                            <div class="w-full items-center justify-center gap-5">
+                                <p>Rachana YIN</p>
+                                <p>&amp;</p>
+                                <p>Chreang Sreyneang</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-center leading-loose uppercase font-times font-normal">
+                            Invites you to the ceremony and celebration of their marriage
+                        </p>
+                        <div class="w-full flex items-center justify-center gap-3 gold-text text-xs uppercase font-times">
+                            <div class="border-y gold-border px-3 py-1">Thursday</div>
+                                <div class="flex flex-col items-center">
+                                        <p>December</p>
+                                        <p class="text-2xl font-bold">25</p>
+                                        <p>2025</p>
+                                    </div>
+                                    <div class="border-y gold-border px-3 py-1">5:00 PM</div>
+                                </div>
+                                <p class="text-xs text-center leading-loose uppercase font-times font-normal">
+                                    At the bride’s house, Preaek Ta Ker Village Koh thom "B" Commune Koh thom District Kandal Province, thanks!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative h-fit flex flex-col items-center justify-center gap-10 p-10 gold-bg py-10 px-5">
+                            <div class="absolute inset-0 bg-center bg-cover bg-no-repeat" style="background-image:url(_next/photo_2.jpg);background-position:55% 50%;filter:blur(2px)"></div>
+                            <div class="relative h-full flex justify-center items-center text-[#FFDC00] font-moul px-5">
+                                <div class="flex flex-col items-center gap-10">
+                                    <p class="text-xl">កម្មវិធីសិរីសួស្ដីអាពាហ៍ពិពាហ៍</p>
+                                    <div class="h-fit w-fit p-5 rounded-2xl border border-[#FFDC00] bg-black/30 backdrop-blur-sm">
+                                        <div class="flex flex-col items-center justify-center gap-5 pb-5 border-b border-[#FFDC00]">
+                                            <div class="flex flex-col items-center gap-3 text-sm">
+                                                <p>កម្មវិធីថ្ងៃទី១</p>
+                                                <p>ថ្ងៃពុធ ទី២៤ ខែធ្នូ ឆ្នាំ២០២៥</p>
+                                            </div>
+                                            <ul class="w-full flex flex-col items-start gap-2">
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០២:០០ រសៀល</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីសែនក្រុងពាលី</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៣:០០ រសៀល</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីសូត្រមន្តចំរើនព្រះបរិត្ត</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៤:០០ រសៀល</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីជាវខាន់ស្លា</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៥:០០ រសៀល</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>អញ្ជើញភ្ញៀវកិត្តិយសពិសាអាហារពេលល្ងាច</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-full flex flex-col items-center justify-center gap-5 pt-5">
+                                            <div class="flex flex-col items-center gap-3 text-sm">
+                                                <p>កម្មវិធីថ្ងៃទី២</p>
+                                                <p>ថ្ថ្ងៃព្រហស្បតិ៍ ទី ២៥ ខែ ធ្នូ ឆ្នាំ ២០២៥</p>
+                                            </div>
+                                            <ul class="flex flex-col items-start gap-2">
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៦:៣០ ព្រឹក</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ជួបជុំភ្ញៀវកិត្តិយសរៀបចំហែជំនូន</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៧:០០ ព្រឹក</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីហែជំនូន(កំណត់)</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៧:៣០ ព្រឹក</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីចៅមហានិយាយជើងការ</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៨:៣០ ព្រឹក</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីបំពាក់ចិញ្ចៀន</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៩:១៥ ព្រឹក</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីកាត់សក់បង្កក់សិរី</p>
+                                                </li>
+                                                <li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ១១:០០ ថ្ងៃត្រង់</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ពិធីបង្វិលពពិល សំពះផ្ទឹម សែនចងដៃ ព្រះថោងនាងនាគ</p>
+                                                </li><li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ១២:០០ ថ្ងៃត្រង់</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>អញ្ជើញភ្ញៀវកិត្តិយសពិសាអាហារថ្ងៃត្រង់</p>
+                                                </li><li class="text-md font-battambang flex items-start">
+                                                    <p class="text-nowrap min-w-[125px]">ម៉ោង ០៥:០០ ល្ងាច</p>
+                                                    <p class="mx-1">:</p>
+                                                    <p>ទទួលបដិសណ្ឋារកិច្ច និងអញ្ជើញភ្ញៀវកិត្តិយសពិសាភោជនាហារ</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative h-fit flex flex-col items-center justify-center gap-10 p-10">
+                            <div class="absolute inset-0 bg-center bg-cover bg-no-repeat " style="background-image:url(_next/photo_1.jpg);background-position:55% 50%;filter:blur(2px)"></div>
+                            <div class="absolute inset-0 bg-black/30"></div>
+                            <div class="p-5 text-[#FFDC00] font-medium rounded-lg border border-[#FFDC00] flex flex-col items-center gap-3 z-10">
+                                <p class="font-moul text-lg">លិខិតសូមអភ័យទោស</p>
+                                <div class="font-battambang !leading-loose xs:text-sm">
+                                    <p>យើងខ្ញុំសូមអភ័យទោសដោយពុំបានជួបអញ្ជើញដោយផ្ទាល់ និង ការសរសេរឈ្មោះរបស់ភ្ញៀវកិត្តិយស មិនបានត្រឹមត្រូវ ឬ ពុំបានសរសេរឈ្មោះ។</p>
+                                    <p>វត្តមាន សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងប្រិយមិត្តទាំងអស់ គឺជាកិត្តិយសដ៏ឧត្តុង្គឧត្តម សម្រាប់ក្រុមគ្រួសាររបស់យើងខ្ញុំ។</p>
+                                </div>
+                            </div>
+                            <div class="p-5 text-[#FFDC00] font-medium rounded-lg border border-[#FFDC00] flex flex-col items-center gap-3 z-10">
+                                <p class="font-moul text-lg">លិខិតសូមថ្លែងអំណរគុណ</p>
+                                <div class="font-battambang !leading-loose xs:text-sm">
+                                    <p>យើងខ្ញុំសូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅចំពោះការអញ្ជើញចូលរួមជា ភ្ញៀវកិត្តិយស ដ៏ឧត្តុង្គឧត្តមក្នុងកម្មវិធី របស់យើងខ្ញុំ។</p>
+                                    <p>សូមជូនពរ សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់មានសុខភាពល្អនិងទទួលជោគជ័យគ្រប់ភារៈកិច្ច។ សូមអរគុណ!</p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="bg-center bg-no-repeat flex flex-col items-center justify-center gap-10 p-10" style="background-image:url(_next/photo_10.JPG);background-position:55% 50%;filter:blur">
+                                <div class="photo-gallery">
+                                    <div class="flex flex-col items-center gap-5 px-10 text-center">
+                                        <p class="text-pink-500 font-moul text-2xl leading-relaxed xs:text-xl">ប្លង់បង្ហាញទីតាំងកម្មវិធី</p>
+                                        <img src="_next/static/media/qrcode_www.google.com.kh.png" alt="Memory photo 2" class="memory-photo">
+                                        <a href="https://maps.app.goo.gl/xAVi6XgtAFjn5Km97" class="map-link font-battambang leading-relaxed text-md text-center">ទីតាំងក្នុង Google Map</a>
+                                        <img src="_next/static/media/aba.jpg" alt="Memory photo 2" class="memory-photo">
+                                        <a href="https://pay.ababank.com/RzcEZxaHP6zAtide8" class="map-link map-link font-battambang leading-relaxed text-md text-center">Link to send payment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="relative h-fit flex flex-col items-center justify-center gap-10 p-10 gold-bg py-10 px-5">
+                            <div class="flex flex-col items-center gap-5 px-10 text-center">
+                                <p class="text-pink-500 font-moul text-2xl leading-relaxed xs:text-xl">កម្រងរូបភាពអនុស្សាវរីយ៍</p>
+                                <p class="gold-text font-battambang text-md leading-relaxed">រូបភាពសម្រាប់រំលឹក និងជាចំណងអាពាហ៍ពិពាហ៍ដ៏រឹងមាំ ហើយមានសុភមង្គល សម្រាប់យើងទាំងពីរនាក់។</p>
+                            </div>
+                            <div class="photo-gallery">
+                                <img src="_next/photo_1.jpg" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_2.jpg" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_3.jpg" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_4.jpg" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_5.jpg" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_6.JPG" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_8.JPG" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_9.JPG" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_10.JPG" alt="Memory photo 1" class="memory-photo">
+                                <img src="_next/photo_12.jpg" alt="Memory photo 1" class="memory-photo">
+                            </div>
+                        </div>
+            </div>
+        </div>
+
+        <script src="/_next/static/chunks/webpack-e665a2dd1a6d7226.js" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[5244,[],\"\"]\n3:I[3866,[],\"\"]\n4:\"$Sreact.suspense\"\n5:I[1724,[\"738\",\"static/chunks/738-46b618fde28d0f88.js\",\"974\",\"static/chunks/app/page-47013b8698497282.js\"],\"default\"]\n6:I[7970,[\"738\",\"static/chunks/738-46b618fde28d0f88.js\",\"974\",\"static/chunks/app/page-47013b8698497282.js\"],\"Image\"]\n7:I[6213,[],\"OutletBoundary\"]\n9:I[6213,[],\"MetadataBoundary\"]\nb:I[6213,[],\"ViewportBoundary\"]\nd:I[4835,[],\"\"]\n:HL[\"/_next/static/media/03453916d24bcb4c-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/0484562807a97172-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/2223128f538507de-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/314c557e4b656089-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/8888a3826f4a3af4-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/b957ea75a84b6ea7-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/c08f427a5265f6e0-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/d174e2bf4c9e7650-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/eafabf029ad39a43-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/638aa69c0f540913.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "0:{\"P\":null,\"b\":\"pJj9vNAGcfLuuWRbm08c4\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/638aa69c0f540913.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"icon\",\"type\":\"image/png\",\"href\":\"/logo.png\",\"sizes\":\"32x32\"}],[\"$\",\"meta\",null,{\"property\":\"og:title\",\"content\":\"Kean \u0026 Gech Wedding\"}],[\"$\",\"meta\",null,{\"property\":\"og:description\",\"content\":\"សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️\"}],[\"$\",\"meta\",null,{\"property\":\"og:image\",\"content\":\"https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=16\"}],[\"$\",\"meta\",null,{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",null,{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",null,{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",null,{\"property\":\"og:url\",\"content\":\"https://kean-gech-wedding.vercel.app/\"}],[\"$\",\"meta\",null,{\"property\":\"og:site_name\",\"content\":\"kean-gech-wedding.com\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:title\",\"content\":\"Kean \u0026 Gech Wedding\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:description\",\"content\":\"សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️\"}],[\"$\",\"meta\",null,{\"name\":\"twitter:image\",\"content\":\"https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=15\"}]]}],[\"$\",\"body\",null,{\"className\":\"__variable_79a552 __variable_75db82 __variable_a87901 __variable_1fa6f9 --font-times-new-roman antialiased\",\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"w-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"container mx-auto max-w-xl\",\"children\":[[\"$\",\"$4\",null,{\"fallback\":[\"$\",\"p\",null,{\"children\":\"Loading...\"}],\"children\":[\"$\",\"$L5\",null,{}]}],[\"$\",\"div\",null,{\"className\":\"h-fit w-full gold-bg flex flex-col gap-5 px-6 pb-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-around gold-text font-moul my-3\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-3 text-sm\",\"children\":[[\"$\",\"p\",null,{\"children\":\"លោក ហេង ​កេត\"}],[\"$\",\"p\",null,{\"children\":\"លោកស្រី លាន ដានី\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-3 text-sm\",\"children\":[[\"$\",\"p\",null,{\"children\":\"លោក សេង ហ៊ី\"}],[\"$\",\"p\",null,{\"children\":\"លោកស្រី ស្រេង ម៉េងសេង\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center justify-center gap-3 gold-text\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm font-moul\",\"children\":\"យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញ\"}],[\"$\",\"p\",null,{\"className\":\"text-xs text-center leading-loose font-battambang\",\"children\":\"សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex items-center justify-around gold-text\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-3\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-xs font-battambang\",\"children\":\"កូនប្រុសនាម\"}],[\"$\",\"p\",null,{\"className\":\"text-sm font-moul\",\"children\":\"កេត​ ម៉េងគាន\"}]]}],[\"$\",\"$L6\",null,{\"src\":{\"src\":\"/_next/static/media/statue-image.4e8d4bff.png\",\"height\":1244,\"width\":1228,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAGFBMVEW8lwC1jgq2jwm1jA21jwm1jgm2jwm2jwm/79fbAAAACHRSTlMCKWEOg09pPMwFNEwAAAAJcEhZcwAALEsAACxLAaU9lqkAAAAySURBVHicHcvBEcBADAKxBYPdf8c3if4CZmYAVKhAqVDErVPl2Gq9NpcbOQde1/4a/34XNQCog1d1eQAAAABJRU5ErkJggg==\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Statue Image\",\"className\":\"size-24 xs:size-20\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-3\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-xs font-battambang\",\"children\":\"កូនស្រីនាម\"}],[\"$\",\"p\",null,{\"className\":\"text-sm font-moul\",\"children\":\"ហ៊ី ហុងហ្គិច\"}]]}]]}],[\"$\",\"p\",null,{\"className\":\"gold-text text-center text-xs font-battambang leading-loose\",\"children\":\"ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃអាទិត្យ ១០​រោច ខែផល្គុន ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី២៣ ខែមីនា ឆ្នាំ២០២៥ វេលាម៉ោង ៥ ល្ងាច ស្ថិតនៅគេហដ្ឋានខាងស្រី ភូមិកំពង់សំបួរលើ ឃុំព្រែកថ្មី ស្រុកកោះធំ ខេត្តកណ្ដាល ដោយមេត្រីភាព ។ សូមអគុណ !\"}],[\"$\",\"div\",null,{\"className\":\"w-full flex flex-col items-center gap-5 gold-text\",\"children\":[[\"$\",\"$L6\",null,{\"src\":{\"src\":\"/_next/static/media/divider.40c7b2aa.svg\",\"height\":2,\"width\":262,\"blurWidth\":0,\"blurHeight\":0},\"alt\":\"Divider Image\"}],[\"$\",\"p\",null,{\"className\":\"text-xs uppercase font-times font-normal\",\"children\":\"together with our families\"}],[\"$\",\"div\",null,{\"className\":\"w-full gold-text\",\"children\":[\"$\",\"div\",null,{\"className\":\"w-full flex items-center justify-center gap-5 [\u0026\u003ep]:font-tangerine [\u0026\u003ep]:text-4xl [\u0026\u003ep]:font-bold\",\"children\":[[\"$\",\"p\",null,{\"children\":\"Mengkean\"}],[\"$\",\"p\",null,{\"children\":\"\u0026\"}],[\"$\",\"p\",null,{\"children\":\"Honggeeh\"}]]}]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-center leading-loose uppercase font-times font-normal\",\"children\":\"invites you to the ceremony and celebration of their marriage\"}],[\"$\",\"div\",null,{\"className\":\"w-full flex items-center justify-center gap-3 gold-text text-xs uppercase font-times\",\"children\":[[\"$\",\"div\",null,{\"className\":\"border-y gold-border px-3 py-1\",\"children\":\"sunday\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center\",\"children\":[[\"$\",\"p\",null,{\"children\":\"March\"}],[\"$\",\"p\",null,{\"className\":\"text-2xl font-bold\",\"children\":\"23\"}],[\"$\",\"p\",null,{\"children\":\"2025\"}]]}],[\"$\",\"div\",null,{\"className\":\"border-y gold-border px-3 py-1\",\"children\":\"5:00 PM\"}]]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-center leading-loose uppercase font-times font-normal\",\"children\":\"at the bride’s house, kampong sambuoler village, prech thmey commune, koh thom district, kandal province, thanks!\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"relative h-screen w-full xs:h-fit xs:py-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-center bg-cover bg-no-repeat\",\"style\":{\"backgroundImage\":\"url(/_next/static/media/couple-background1.cc2f2076.jpg)\",\"backgroundPosition\":\"55% 50%\",\"filter\":\"blur(2px)\"}}],[\"$\",\"div\",null,{\"className\":\"relative h-full flex justify-center items-center text-[#FFDC00] font-moul px-5\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-10\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-xl\",\"children\":\"កម្មវិធីសិរីសួស្ដីអាពាហ៍ពិពាហ៍\"}],[\"$\",\"div\",null,{\"className\":\"h-fit w-fit p-5 rounded-2xl border border-[#FFDC00] bg-black/30 backdrop-blur-sm\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center justify-center gap-5 pb-5 border-b border-[#FFDC00]\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-3 text-sm\",\"children\":[[\"$\",\"p\",null,{\"children\":\"កម្មវិធីថ្ងៃទី១\"}],[\"$\",\"p\",null,{\"children\":\"ថ្ងៃសៅរ៍ ទី២២ ខែមីនា ឆ្នាំ២០២៥\"}]]}],[\"$\",\"ul\",null,{\"className\":\"w-full flex flex-col items-start gap-2\",\"children\":[[\"$\",\"li\",\"0\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០២:០០ រសៀល\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីសែនក្រុងពាលី\"}]]}],[\"$\",\"li\",\"1\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៣:០០ រសៀល\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីសូត្រមន្តចំរើនព្រះបរិត្ត\"}]]}],[\"$\",\"li\",\"2\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៤:០០ រសៀល\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីជាវខាន់ស្លា\"}]]}],[\"$\",\"li\",\"3\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៥:០០ រសៀល\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"អញ្ជើញភ្ញៀវកិត្តិយសពិសាអាហារពេលល្ងាច\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"w-full flex flex-col items-center justify-center gap-5 pt-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-3 text-sm\",\"children\":[[\"$\",\"p\",null,{\"children\":\"កម្មវិធីថ្ងៃទី២\"}],[\"$\",\"p\",null,{\"children\":\"ថ្ងៃអាទិត្យ ទី២៣ ខែមីនា ឆ្នាំ២០២៥\"}]]}],[\"$\",\"ul\",null,{\"className\":\"flex flex-col items-start gap-2\",\"children\":[[\"$\",\"li\",\"0\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៦:៣០ ព្រឹក\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ជួបជុំភ្ញៀវកិត្តិយសរៀបចំហែជំនូន\"}]]}],[\"$\",\"li\",\"1\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៧:០០ ព្រឹក\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីហែជំនូន(កំណត់)\"}]]}],[\"$\",\"li\",\"2\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៧:៣០ ព្រឹក\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីចៅមហានិយាយជើងការ\"}]]}],[\"$\",\"li\",\"3\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៨:៣០ ព្រឹក\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីបំពាក់ចិញ្ចៀន\"}]]}],[\"$\",\"li\",\"4\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៩:១៥ ព្រឹក\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីកាត់សក់បង្កក់សិរី\"}]]}],[\"$\",\"li\",\"5\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ១១:០០ ថ្ងៃត្រង់\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ពិធីបង្វិលពពិល សំពះផ្ទឹម សែនចងដៃ ព្រះថោងនាងនាគ\"}]]}],[\"$\",\"li\",\"6\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ១២:០០ ថ្ងៃត្រង់\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"អញ្ជើញភ្ញៀវកិត្តិយសពិសាអាហារថ្ងៃត្រង់\"}]]}],[\"$\",\"li\",\"7\",{\"className\":\"text-md font-battambang flex items-start\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-nowrap min-w-[125px]\",\"children\":\"ម៉ោង ០៥:០០ ល្ងាច\"}],[\"$\",\"p\",null,{\"className\":\"mx-1\",\"children\":\":\"}],[\"$\",\"p\",null,{\"children\":\"ទទួលបដិសណ្ឋារកិច្ច និងអញ្ជើញភ្ញៀវកិត្តិយសពិសាភោជនាហារ\"}]]}]]}]]}]]}]]}]}]]}],[\"$\",\"div\",null,{\"className\":\"h-fit w-full gold-bg py-10 px-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-5 px-10 text-center\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-pink-500 font-moul text-2xl leading-relaxed xs:text-xl\",\"children\":\"កម្រងរូបភាពអនុស្សាវរីយ៍\"}],[\"$\",\"p\",null,{\"className\":\"gold-text font-battambang text-md leading-relaxed\",\"children\":\"រូបភាពសម្រាប់រំលឹក និងជាចំណងអាពាហ៍ពិពាហ៍ដ៏រឹងមាំ ហើយមានសុភមង្គល សម្រាប់យើងទាំងពីរនាក់។\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap justify-center gap-5 mt-8\",\"children\":[[\"$\",\"$L6\",\"1\",{\"src\":{\"src\":\"/_next/static/media/1.7dad371a.jpg\",\"height\":4000,\"width\":6000,\"blurDataURL\":\"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACQEn//xAAeEAACAQMFAAAAAAAAAAAAAAACAwQAAQUREhNhcf/aAAgBAQABPwDEtWrHoeEZQ8sfaQgNh619r//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABgRAAIDAAAAAAAAAAAAAAAAAAABAjJx/9oACAEDAQE/AFWOH//Z\",\"blurWidth\":8,\"blurHeight\":5},\"alt\":\"Image 1\",\"className\":\"rounded-xl object-cover\"}],[\"$\",\"$L6\",\"2\",{\"src\":{\"src\":\"/_next/static/media/2.f8b18cbf.jpg\",\"height\":3619,\"width\":5428,\"blurDataURL\":\"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAnBF//8QAHxAAAgECBwAAAAAAAAAAAAAAAQIDABIEBRETIUJR/9oACAEBAAE/AMLtLl0ashLyRutwNvbgn3Sv/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEREiH/2gAIAQIBAT8AqpeI/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAEDAQE/AIM3/9k=\",\"blurWidth\":8,\"blurHeight\":5},\"alt\":\"Image 2\",\"className\":\"rounded-xl object-cover\"}],[\"$\",\"$L6\",\"3\",{\"src\":{\"src\":\"/_next/static/media/3.5ad77bbc.jpg\",\"height\":3915,\"width\":5873,\"blurDataURL\":\"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAACMD//EAB4QAAEDBAMAAAAAAAAAAAAAAAMBAgQABRESFDNT/9oACAEBAAE/AIV9NGIAzB9XHVG7ebMV/8QAFREBAQAAAAAAAAAAAAAAAAAAAAL/2gAIAQIBAT8Al//EABURAQEAAAAAAAAAAAAAAAAAAAAC/9oACAEDAQE/AKf/2Q==\",\"blurWidth\":8,\"blurHeight\":5},\"alt\":\"Image 3\",\"className\":\"rounded-xl object-cover\"}],[\"$\",\"$L6\",\"4\",{\"src\":{\"src\":\"/_next/static/media/4.e67fc194.jpg\",\"height\":4000,\"width\":6000,\"blurDataURL\":\"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAADBf/aAAwDAQACEAMQAAAAgCav/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIDBBEAkf/aAAgBAQABPwCo9dsQRS6m4TKT6O//xAAXEQEAAwAAAAAAAAAAAAAAAAABAAIR/9oACAECAQE/ALLs/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=\",\"blurWidth\":8,\"blurHeight\":5},\"alt\":\"Image 4\",\"className\":\"rounded-xl object-cover\"}],[\"$\",\"$L6\",\"5\",{\"src\":{\"src\":\"/_next/static/media/5.3c1154c0.jpg\",\"height\":4032,\"width\":6048,\"blurDataURL\":\"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAL/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACQB3//xAAbEAACAgMBAAAAAAAAAAAAAAACAwEhAAQFIv/aAAgBAQABPwDmkxXLYnVYSVhRDRwclFl6z//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z\",\"blurWidth\":8,\"blurHeight\":5},\"alt\":\"Image 5\",\"className\":\"rounded-xl object-cover\"}],[\"$\",\"$L6\",\"6\",{\"src\":{\"src\":\"/_next/static/media/6.bb6add13.jpg\",\"height\":3597,\"width\":5395,\"blurDataURL\":\"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/aAAwDAQACEAMQAAAAhiYj/8QAGxABAAICAwAAAAAAAAAAAAAAAgEDAAQFElL/2gAIAQEAAT8A42/Vl1E6RLkodoXrP//EABcRAQADAAAAAAAAAAAAAAAAAAEAAhH/2gAIAQIBAT8Auuz/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAv/aAAgBAwEBPwCX/9k=\",\"blurWidth\":8,\"blurHeight\":5},\"alt\":\"Image 6\",\"className\":\"rounded-xl object-cover\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"relative h-fit flex flex-col items-center justify-center gap-10 p-10\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-center bg-cover bg-no-repeat \",\"style\":{\"backgroundImage\":\"url(/_next/static/media/couple-background2.0b6580d6.jpg)\",\"backgroundPosition\":\"55% 50%\",\"filter\":\"blur(2px)\"}}],[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-black/30\"}],[\"$\",\"div\",null,{\"className\":\"p-5 text-[#FFDC00] font-medium rounded-lg border border-[#FFDC00] flex flex-col items-center gap-3 z-10\",\"children\":[[\"$\",\"p\",null,{\"className\":\"font-moul text-lg\",\"children\":\"លិខិតសូមអភ័យទោស\"}],[\"$\",\"div\",null,{\"className\":\"font-battambang !leading-loose xs:text-sm\",\"children\":[[\"$\",\"p\",null,{\"children\":\"យើងខ្ញុំសូមអភ័យទោសដោយពុំបានជួបអញ្ជើញដោយផ្ទាល់ និង ការសរសេរឈ្មោះរបស់ភ្ញៀវកិត្តិយស មិនបានត្រឹមត្រូវ ឬ ពុំបានសរសេរឈ្មោះ។\"}],[\"$\",\"p\",null,{\"children\":\"វត្តមាន សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងប្រិយមិត្តទាំងអស់ គឺជាកិត្តិយសដ៏ឧត្តុង្គឧត្តម សម្រាប់ក្រុមគ្រួសាររបស់យើងខ្ញុំ។\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"p-5 text-[#FFDC00] font-medium rounded-lg border border-[#FFDC00] flex flex-col items-center gap-3 z-10\",\"children\":[[\"$\",\"p\",null,{\"className\":\"font-moul text-lg\",\"children\":\"លិខិតសូមថ្លែងអំណរគុណ\"}],[\"$\",\"div\",null,{\"className\":\"font-battambang !leading-loose xs:text-sm\",\"children\":[[\"$\",\"p\",null,{\"children\":\"យើងខ្ញុំសូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅចំពោះការអញ្ជើញចូលរួមជា ភ្ញៀវកិត្តិយស ដ៏ឧត្តុង្គឧត្តមក្នុងកម្មវិធី របស់យើងខ្ញុំ។\"}],[\"$\",\"p\",null,{\"children\":\"សូមជូនពរ សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់មានសុខភាពល្អនិងទទួលជោគជ័យគ្រប់ភារៈកិច្ច។ សូមអរគុណ!\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"h-fit w-full gold-bg py-10 px-5 flex flex-col items-center gap-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-5 px-10 text-center\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-pink-500 font-moul text-2xl leading-relaxed xs:text-xl\",\"children\":\"ប្លង់បង្ហាញទីតាំងកម្មវិធី\"}],[\"$\",\"p\",null,{\"className\":\"gold-text font-battambang leading-relaxed text-md text-center\",\"children\":\"ស្ថិតនៅគេហដ្ឋានខាងស្រី ភូមិកំពង់សំបួរលើ ឃុំព្រែកថ្មី ស្រុកកោះធំ ខេត្តកណ្ដាល\"}]]}],[\"$\",\"div\",null,{\"className\":\"relative w-full h-full p-5\",\"children\":[\"$\",\"$L6\",null,{\"src\":{\"src\":\"/_next/static/media/map.818bb02e.png\",\"height\":1278,\"width\":644,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAMAAADp7a43AAAAG1BMVEX28OLTzsPn4tXa1crw6t3DvrWrqaSysayJiYkyO5aSAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAJklEQVR4nBXEwREAIAgEsd0DxP4rdswjkAD+appU4B5lR8nYtMUDBVQATUG+SuEAAAAASUVORK5CYII=\",\"blurWidth\":4,\"blurHeight\":8},\"alt\":\"Map\",\"className\":\"w-full h-full object-cover\"}]}],[\"$\",\"p\",null,{\"className\":\"text-pink-500 font-moul text-2xl leading-relaxed xs:text-xl\",\"children\":\"ទីតាំងក្នុង Google Map\"}],[\"$\",\"div\",null,{\"className\":\"w-full h-72\",\"children\":[\"$\",\"iframe\",null,{\"src\":\"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3914.406870319146!2d105.05952067504731!3d11.15748078901535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA5JzI2LjkiTiAxMDXCsDAzJzQzLjUiRQ!5e0!3m2!1sen!2skh!4v1740553835803!5m2!1sen!2skh\",\"style\":{\"border\":0},\"allowFullScreen\":true,\"loading\":\"lazy\",\"className\":\"w-full h-full\",\"referrerPolicy\":\"no-referrer-when-downgrade\"}]}]]}]]}]}],null,[\"$\",\"$L7\",null,{\"children\":\"$L8\"}]]}],{},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"iJD9nUONryKtheaaYwp0U\",{\"children\":[[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"$Lb\",null,{\"children\":\"$Lc\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$d\",\"$undefined\"],\"s\":false,\"S\":true}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "a:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"លិខិតអញ្ជើញមង្គលអាពាហ៍ពិពាហ៍\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងប្រិយមិត្ត អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធិពរជ័យ សិរីសួស្តីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ របស់យើងខ្ញុំទាំងពីរ។! ❤️\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:title\",\"content\":\"លិខិតអញ្ជើញមង្គលអាពាហ៍ពិពាហ៍\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:description\",\"content\":\"យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងប្រិយមិត្ត អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធិពរជ័យ សិរីសួស្តីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ របស់យើងខ្ញុំទាំងពីរ។! ❤️\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:url\",\"content\":\"https://kean-gech-wedding.vercel.app/\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:locale\",\"content\":\"km_KH\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://kean-gech-wedding.vercel.app/thumbnail.jpg\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:image:alt\",\"content\":\"Kean \u0026 Gech Wedding Thumbnail\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:title\",\"content\":\"លិខិតអញ្ជើញមង្គលអាពាហ៍ពិពាហ៍\"}],[\"$\",\"meta\",\"14\",{\"name\":\"twitter:description\",\"content\":\"យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង កញ្ញា និងប្រិយមិត្ត អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធិពរជ័យ សិរីសួស្តីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ របស់យើងខ្ញុំទាំងពីរ។! ❤️\"}],[\"$\",\"meta\",\"15\",{\"name\":\"twitter:image\",\"content\":\"https://kean-gech-wedding.vercel.app/thumbnail.jpg\"}],[\"$\",\"link\",\"16\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}],[\"$\",\"link\",\"17\",{\"rel\":\"icon\",\"href\":\"/logo.png\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "8:null\n"])
+        </script>
+    </body>
+</html>
